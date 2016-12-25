@@ -1,0 +1,6 @@
+framework module Pods_JSONMappingTests {
+  umbrella header "Pods-JSONMappingTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

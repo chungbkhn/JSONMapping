@@ -10,6 +10,8 @@
 		632C20F31E0ED81700193F98 /* JSONMapping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632C20E91E0ED81700193F98 /* JSONMapping.framework */; };
 		632C20F81E0ED81700193F98 /* JSONMappingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632C20F71E0ED81700193F98 /* JSONMappingTests.swift */; };
 		632C20FA1E0ED81700193F98 /* JSONMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 632C20EC1E0ED81700193F98 /* JSONMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B53B465FF1C506DC58302CB9 /* Pods_JSONMapping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAA21236A915C6B74AF1B75 /* Pods_JSONMapping.framework */; };
+		B6E695C1824CBE77232C0478 /* Pods_JSONMappingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709BEE268A81FA5A2161C621 /* Pods_JSONMappingTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +25,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03EC7AC5A734B9DBD664862E /* Pods-JSONMapping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONMapping.release.xcconfig"; path = "../Pods/Target Support Files/Pods-JSONMapping/Pods-JSONMapping.release.xcconfig"; sourceTree = "<group>"; };
+		0A72DBBE6877B530B80FFFE1 /* Pods-JSONMappingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONMappingTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-JSONMappingTests/Pods-JSONMappingTests.release.xcconfig"; sourceTree = "<group>"; };
 		632C20E91E0ED81700193F98 /* JSONMapping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONMapping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		632C20EC1E0ED81700193F98 /* JSONMapping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONMapping.h; sourceTree = "<group>"; };
 		632C20ED1E0ED81700193F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		632C20F21E0ED81700193F98 /* JSONMappingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONMappingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		632C20F71E0ED81700193F98 /* JSONMappingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMappingTests.swift; sourceTree = "<group>"; };
 		632C20F91E0ED81700193F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		709BEE268A81FA5A2161C621 /* Pods_JSONMappingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONMappingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C42E929C37D5603F58C325D /* Pods-JSONMapping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONMapping.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-JSONMapping/Pods-JSONMapping.debug.xcconfig"; sourceTree = "<group>"; };
+		E599A4D488A809AC1911111E /* Pods-JSONMappingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONMappingTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-JSONMappingTests/Pods-JSONMappingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCAA21236A915C6B74AF1B75 /* Pods_JSONMapping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONMapping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B53B465FF1C506DC58302CB9 /* Pods_JSONMapping.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +53,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				632C20F31E0ED81700193F98 /* JSONMapping.framework in Frameworks */,
+				B6E695C1824CBE77232C0478 /* Pods_JSONMappingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		295EB6691E49025685953517 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCAA21236A915C6B74AF1B75 /* Pods_JSONMapping.framework */,
+				709BEE268A81FA5A2161C621 /* Pods_JSONMappingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		632C20DF1E0ED81700193F98 = {
 			isa = PBXGroup;
 			children = (
 				632C20EB1E0ED81700193F98 /* JSONMapping */,
 				632C20F61E0ED81700193F98 /* JSONMappingTests */,
 				632C20EA1E0ED81700193F98 /* Products */,
+				7E7A7D95DE291A958C8E60DD /* Pods */,
+				295EB6691E49025685953517 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +107,17 @@
 			path = JSONMappingTests;
 			sourceTree = "<group>";
 		};
+		7E7A7D95DE291A958C8E60DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C42E929C37D5603F58C325D /* Pods-JSONMapping.debug.xcconfig */,
+				03EC7AC5A734B9DBD664862E /* Pods-JSONMapping.release.xcconfig */,
+				E599A4D488A809AC1911111E /* Pods-JSONMappingTests.debug.xcconfig */,
+				0A72DBBE6877B530B80FFFE1 /* Pods-JSONMappingTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -104,10 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 632C20FD1E0ED81700193F98 /* Build configuration list for PBXNativeTarget "JSONMapping" */;
 			buildPhases = (
+				B6DC3BC534D95998A8284F2A /* [CP] Check Pods Manifest.lock */,
 				632C20E41E0ED81700193F98 /* Sources */,
 				632C20E51E0ED81700193F98 /* Frameworks */,
 				632C20E61E0ED81700193F98 /* Headers */,
 				632C20E71E0ED81700193F98 /* Resources */,
+				8386471B366E1C287769A3F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 632C21001E0ED81700193F98 /* Build configuration list for PBXNativeTarget "JSONMappingTests" */;
 			buildPhases = (
+				871F43365F43061B8C105D35 /* [CP] Check Pods Manifest.lock */,
 				632C20EE1E0ED81700193F98 /* Sources */,
 				632C20EF1E0ED81700193F98 /* Frameworks */,
 				632C20F01E0ED81700193F98 /* Resources */,
+				423E092263E1F590600E622A /* [CP] Embed Pods Frameworks */,
+				8FDCF3ABABCBDB6EA151CBD6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,6 +229,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		423E092263E1F590600E622A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-JSONMappingTests/Pods-JSONMappingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8386471B366E1C287769A3F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-JSONMapping/Pods-JSONMapping-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		871F43365F43061B8C105D35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FDCF3ABABCBDB6EA151CBD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-JSONMappingTests/Pods-JSONMappingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6DC3BC534D95998A8284F2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		632C20E41E0ED81700193F98 /* Sources */ = {
@@ -321,6 +436,7 @@
 		};
 		632C20FE1E0ED81700193F98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C42E929C37D5603F58C325D /* Pods-JSONMapping.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -340,6 +456,7 @@
 		};
 		632C20FF1E0ED81700193F98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03EC7AC5A734B9DBD664862E /* Pods-JSONMapping.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -359,6 +476,7 @@
 		};
 		632C21011E0ED81700193F98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E599A4D488A809AC1911111E /* Pods-JSONMappingTests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 4N7PQ73R6Z;
 				INFOPLIST_FILE = JSONMappingTests/Info.plist;
@@ -371,6 +489,7 @@
 		};
 		632C21021E0ED81700193F98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A72DBBE6877B530B80FFFE1 /* Pods-JSONMappingTests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 4N7PQ73R6Z;
 				INFOPLIST_FILE = JSONMappingTests/Info.plist;
